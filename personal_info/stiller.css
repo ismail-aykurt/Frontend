@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 650px;
+    background-color: #272727;
+    background-image: url("kusu.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.main_bar {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_bar img {
+    margin-bottom: 20px;
+    
+}
+
+
+.main_bar img:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    
+}
+
+
+.main_container {
+    height: 60%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.left_container {
+    width: 400px;
+    height: 300px;
+    background-color: #d2d2d2;
+    background-image: url("kusu.png");
+    background-size: 170px;
+    background-position: 20px 30px;
+    background-repeat: no-repeat;  
+    border-radius: 3px;
+   
+}
+
+
+
+.left_container .solyazi {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.left_container .id {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+
+.id p {
+    font-weight: bold;
+}
+
+.id button {
+    background-color: #030303;
+    color: #ffffff;
+    width: 70px;
+    cursor: pointer;
+}
+
+.id button:hover {
+    background-color: #4d4d4d;
+    transform: scale(1.1);
+}
+
+.left_container .liste_input {
+   
+    height: 200px;
+    display: flex;
+    
+    
+    
+}
+
+.left_container .liste {
+    width: 50px;
+    margin-left: 5px;
+    
+}
+
+
+.left_container .liste ul {
+    list-style: none;
+        
+    
+}
+
+.liste li {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.liste_input .girisler {
+    width: 200px;
+    
+}
+
+.liste_input .girisler input {
+    width: 310px;
+    height: 20px;
+    border-radius: 2px;
+    border-color: #ffffff;
+    margin-top: 26px;
+    margin-left: 8%;
+    
+
+}
+
+.girisler input:hover {
+    background-color: #b4b1b1;
+    
+    
+}
+
+.girisler input::placeholder {
+    font-weight: bold;
+}
+
+.uyari {
+    display: flex;
+}
+
+.uyari_prg {
+    margin: 5px 5px;
+    
+}
+
+.uyari_prg p {
+    font-weight: bold;
+}
+
+.uyari button {
+    width: 60px;
+    height: 20px;
+    margin-top: 5px;
+    background-color: #030303;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.uyari button:hover {
+    background-color: #b2b2b2;
+    transform: scale(0.9);
+}
+
+
+.right_container {
+    width: 400px;
+    height: 300px;
+    background-color: #4d4d4d;
+    background-image: url("kusu.png");
+    background-size: 170px;
+    background-position: 20px 30px;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    
+}
+
+.right_container .sagyazi {
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.right_container .right_id {
+    width: 150px;   
+    display: flex;
+    justify-content: space-between;
+    margin-top:25px;
+    margin-left: 10px;
+    
+}
+
+.right_id p {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.right_container .form_li {
+    display: flex;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.right_container .form_li button {
+    background-color: #030303;
+    color: white;
+    border: 2px solid none;
+    cursor: pointer;
+
+}
+
+
+.right_container .form_li button:hover {
+    transform: scale(1.1);
+
+}
+
+.right_container #duzenle {
+    width: 60px;
+    height: 20px;
+    border-radius: 3px;
+    
+}
+
+.right_container .form_li ul {
+    list-style: none;
+    color: #ffffff;
+}
+
+.right_container .form {
+    width: 200px;
+}
+
+
+
+.right_container .form input {
+    width: 310px;
+    height: 20px;
+    border-radius: 2px;
+    border-color: #ffffff;
+    margin-top: 26px;
+    margin-left: 8%;
+    
+}
+
+.alt_container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+
+.turuncu {
+    width: 95%;
+    height: 70px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+
+.database p {
+    color: #ddc4c4;
+    margin-bottom: 10px;
+    margin-left: 8px;
+
+}
+
+.database p:hover {
+    color: #4d4d4d;
+}
+
+.turuncu .giris {
+    margin-right: 10px;
+    
+}
+
+.turuncu .giris input {
+    width: 260px;
+   
+}
+
+.turuncu .giris input:hover {
+    border-color: #4d4d4d;
+    background-color: rgb(212, 212, 211);
+}
+
+.login {
+    height: 25px;
+    display: flex;
+}
+
+
+.login button {
+    background-color: #b2b2b2;
+    cursor: pointer;
+
+}
+
+#buton1 {
+    background-color: rgb(13, 13, 13);
+    color: #ffffff;
+    
+}
+
+#buton1:hover {
+
+    background-color: aquamarine;
+}
+.login button:hover {
+    border-color: #4d4d4d;
+    background-color: aquamarine;
+    
+}
+
+.paragraf {
+    font-size: 14px;
+    margin-left: 38px;
+    margin-top: 3px;
+    
+}
+.turuncu .giris .paragraf p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-style: italic;
+   
+}
+
+.paragraf p:hover {
+    color: #4d4d4d;
+    background-color: #b2b2b2;
+    border-radius: 5px;
+}
+
+
+.alt_turuncu {
+    width: 95%;
+    
+    background-color: white;
+    
+    
+}
+
+.numara {
+    
+    height: 25px;
+    background-color: #e8e6e7;
+}
+
+
+.numara ul {
+    display: flex;
+    
+    list-style: none;
+    font-weight: bold;
+    width: 100%;
+    
+}
+
+
+.numara li {
+    width: 200px;
+}
+
+
+.sayi ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: bold;
+   
+    
+
+}
+
+
+#sabit-silme {
+    height: 20px;
+    
+}
+
+.delete:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.delete {
+    margin-right: 12px;
+}
+
+.edit:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

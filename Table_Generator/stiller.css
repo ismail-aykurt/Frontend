@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    
+}
+
+.ust_container {
+    height: 350px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+h1 {
+    color: white;
+    
+}
+
+.left_container {
+    width: 55%;
+    text-align: center;
+    
+
+}
+
+.left_container table {
+    border: 2px solid white;
+    width: 100%;
+    height: 150px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid white; /* Hücre kenarlıkları */
+    padding: 30px; /* Hücre içi boşluk */
+  }
+
+.left_container input {
+    width: 40%;
+    margin-right: 60%;
+    background-color: #333333;
+    color: white;
+}
+
+
+
+.right_container {
+    width: 40%;
+    text-align: start;
+    margin-top: 80px;
+    
+}
+
+button {
+   height: 30px;
+   width: 100px;
+
+}
+
+#delAll-buton {
+    background-color: red;
+    color: white;
+    
+}
+
+#delAll-buton:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+#create-buton {
+    background-color: green;
+    color: white;
+}
+
+#create-buton:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+
+
+
+.alt-container table, th, td {
+  border: 2px solid white;
+  width: 200px;
+  height: 100px;
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+  
+}
+
+.alt-container button{
+    min-width: 60px;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+
+.divler{
+    width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+
+

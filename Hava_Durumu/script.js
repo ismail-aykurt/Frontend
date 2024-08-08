@@ -1,5 +1,5 @@
 const url = `https://api.openweathermap.org/data/2.5/`
-const key =  ``  //API key Weather Forecast sayfasından alabilirsiniz.
+const key =  ``  //API keyi Open Weather sitesinden alabilirsiniz.
 const searchBar = document.getElementById('searchBar');
 
 
